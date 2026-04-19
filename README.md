@@ -12,23 +12,23 @@ As of April 6, 2026, the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam achi
 
 ## Technical Methodology
 1. Data Engineering & Simulation
-I developed a modeled dataset of geographically representative coordinates for:
+  I developed a modeled dataset of geographically representative coordinates for:
 
-Thorium Sources: Coastal monazite sand deposits (Odisha, Andhra Pradesh, Tamil Nadu, and Kerala).
+  Thorium Sources: Coastal monazite sand deposits (Odisha, Andhra Pradesh, Tamil Nadu, and Kerala).
 
-Nuclear Infrastructure Nodes: Existing PHWR sites and proposed AHWR/Stage 3 candidate sites selected for coastal logistics and water access.
+  Nuclear Infrastructure Nodes: Existing PHWR sites and proposed AHWR/Stage 3 candidate sites selected for coastal logistics and water access.
 
 2. Geospatial Workflow (QGIS)
-Coordinate Systems: Handled coordinate transformations from raw simulated CSV data to the WGS 84 (EPSG:4326) standard.
+  Coordinate Systems: Handled coordinate transformations from raw simulated CSV data to the WGS 84 (EPSG:4326) standard.
 
-Symbology: Implemented a categorized vector point system to visualize the supply-chain proximity between thorium-rich mineral belts and reactor sites.
+  Symbology: Implemented a categorized vector point system to visualize the supply-chain proximity between thorium-rich mineral belts and reactor sites.
 
-India-Specific Siting: The map specifically accounts for the Indo-Gangetic Plain's power requirements and the coastal monazite belts of South and East India.
+  India-Specific Siting: The map specifically accounts for the Indo-Gangetic Plain's power requirements and the coastal monazite belts of South and East India.
 
 3. Key Analytical Insights
-Supply Chain Proximity: Coastal siting is critical for Stage 3 AHWRs to minimize the logistical footprint of transporting heavy mineral sands from the coastal belts.
+  Supply Chain Proximity: Coastal siting is critical for Stage 3 AHWRs to minimize the logistical footprint of transporting heavy mineral sands from the coastal belts.
 
-Energy Transition Modeling: The visualization identifies Kalpakkam (Tamil Nadu) as the current primary hub for Stage 2 operations, serving as the "bridge" to the thorium-based future.
+  Energy Transition Modeling: The visualization identifies Kalpakkam (Tamil Nadu) as the current primary hub for Stage 2 operations, serving as the "bridge" to the thorium-based future.
 
 ## Project Contents
 /reactor_sites_qgis, thorium_deposits: Simulated CSV dataset of India's nuclear coordinates.
