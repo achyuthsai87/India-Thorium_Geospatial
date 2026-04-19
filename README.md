@@ -1,16 +1,16 @@
-India Thorium Energy Grid: Geospatial Siting Analysis
+# India Thorium Energy Grid: Geospatial Siting Analysis
 
 ![India Thorium Reactor Siting Analysis](thorium_reactor_siting_map.png)
 
-Overview
+## Overview
 This project presents a geospatial feasibility study for India’s Three-Stage Nuclear Power Programme, an indigenous strategy designed to leverage India's vast thorium reserves (approx. 25% of global deposits) for long-term energy independence.
 
 The analysis focuses on the transition from Stage 2 (Fast Breeder Reactors) to Stage 3 (Thorium-based Reactors), a milestone India officially entered in April 2026.
 
-Technical Context: The 2026 Milestone
+## Technical Context: The 2026 Milestone
 As of April 6, 2026, the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam achieved first criticality. This reactor marks the initiation of Stage 2, where Plutonium fuel is used to transmute Thorium-232 into Uranium-233. My analysis maps the infrastructure required to scale this transmutation into the final Stage 3 (Advanced Heavy Water Reactors).
 
-Technical Methodology
+## Technical Methodology
 1. Data Engineering & Simulation
 I developed a modeled dataset of geographically representative coordinates for:
 
@@ -30,7 +30,7 @@ Supply Chain Proximity: Coastal siting is critical for Stage 3 AHWRs to minimize
 
 Energy Transition Modeling: The visualization identifies Kalpakkam (Tamil Nadu) as the current primary hub for Stage 2 operations, serving as the "bridge" to the thorium-based future.
 
-Project Contents
+## Project Contents
 /reactor_sites_qgis, thorium_deposits: Simulated CSV dataset of India's nuclear coordinates.
 
 /thorium_reactor_siting_map: High-resolution export of the siting analysis.
