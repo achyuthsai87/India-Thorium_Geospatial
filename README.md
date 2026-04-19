@@ -1,5 +1,7 @@
 India Thorium Energy Grid: Geospatial Siting Analysis
 
+![India Thorium Reactor Siting Analysis](thorium_reactor_siting_map.png)
+
 Overview
 This project presents a geospatial feasibility study for India’s Three-Stage Nuclear Power Programme, an indigenous strategy designed to leverage India's vast thorium reserves (approx. 25% of global deposits) for long-term energy independence.
 
@@ -33,4 +35,4 @@ Project Contents
 
 /thorium_reactor_siting_map: High-resolution export of the siting analysis.
 
-/Optimal_Thorium_reactor_sites_in_india.qgz: QGIS project file including layer configurations.
+/optimal_thorium_reactor_sites_in_india.qgz: QGIS project file including layer configurations.
